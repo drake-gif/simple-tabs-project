@@ -14,7 +14,7 @@ Get and run the project
 
 1. Download or clone the project.
 
-``` git clone https://github.com/drake-gif/simple-tabs-project.git ```
+ ``` git clone https://github.com/drake-gif/simple-tabs-project.git ```
 
 2. Keep the three files in the same folder.
 3. Open the project in vs code and run `index.html` and it runs in browser.
