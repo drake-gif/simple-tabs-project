@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tabs component Project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Tabs component project </h1>
+
+    <div class="tabs" id="demo-tabs">
+      <div class="tab-list" role="tablist" aria-label="Feelings and states">
+        <button class="tab" role="tab" id="tab-love" aria-controls="panel-love" aria-selected="true">Love</button>
+        <button class="tab" role="tab" id="tab-joy" aria-controls="panel-joy" aria-selected="false" tabindex="-1">Joy</button>
+        <button class="tab" role="tab" id="tab-health" aria-controls="panel-health" aria-selected="false" tabindex="-1">Health</button>
+      </div>
+
+      <section class="tab-panel" role="tabpanel" id="panel-love" aria-labelledby="tab-love">
+        <h2>Love</h2>
+        <p>A strong feeling of affection and concern toward another person, as that arising from kinship or close friendship.</p>
+      </section>
+
+      <section class="tab-panel" role="tabpanel" id="panel-joy" aria-labelledby="tab-joy" hidden>
+        <h2>Joy</h2>
+        <p>Intense and especially ecstatic or exultant happiness, or an instance of such feeling.</p>
+      </section>
+
+      <section class="tab-panel" role="tabpanel" id="panel-health" aria-labelledby="tab-health" hidden>
+        <h2>Health</h2>
+        <p>The overall condition of an organism at a given time.</p>
+      </section>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
